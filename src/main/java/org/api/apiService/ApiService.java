@@ -30,7 +30,7 @@ public class ApiService {
 
         HttpRequest request = HttpRequest.newBuilder()
                 .GET()
-                .uri(URI.create("https://api.themoviedb.org/3/search/movie?query="+encodedTitle+"&api_key=c2751916a92efab93c8ab3910323df5a")).build();
+                .uri(URI.create("https://api.themoviedb.org/3/search/movie?query="+encodedTitle+"&api_key=###")).build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 
         ObjectMapper mapper = new ObjectMapper();
