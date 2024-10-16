@@ -12,7 +12,7 @@ O projeto permite que o usuário faça consultas à API do **TMD** (The Movie Da
 - Campo de busca para o usuário fazer consultas específicas na API.
 
 ## 💻 Tecnologias Utilizadas
-- **Java** (versão X)
+- **Java** (versão 17)
 - **Jackson Data Bind**: Para desserialização de JSON.
 - **JFrame**: Para criar a interface gráfica.
 - **Biblioteca Java HTTP (HttpURLConnection)**: Para realizar as requisições de API.
